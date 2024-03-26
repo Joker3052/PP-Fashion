@@ -1,0 +1,11 @@
+button:hover{
+    background-color: aquamarine;
+}
+.image-container {
+    overflow: hidden;
+    transition: transform 0.5s;
+  }
+  
+  .image-container:hover {
+    transform: scale(1.05);
+  }

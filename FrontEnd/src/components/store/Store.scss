@@ -1,0 +1,62 @@
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .normal-image {
+    width: 100%;
+    height: auto;
+    transition: opacity 0.3s ease;
+  }
+  
+  .hover-image {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .image-container:hover .normal-image {
+    opacity: 0;
+  }
+  
+  .image-container:hover .hover-image {
+    opacity: 1;
+  }
+  .new_old
+  {
+    cursor: pointer;
+  }
+  /* Modal CSS */
+.modal-content {
+  display: flex;
+}
+
+.image-container {
+  flex: 1;
+  text-align: center;
+}
+
+// .modal-image {
+//   max-width: 30vh; /* Đảm bảo ảnh không vượt quá chiều rộng của modal */
+//   max-height: 50vh; /* Điều chỉnh chiều cao tối đa của ảnh, có thể điều chỉnh giá trị này tùy ý */
+//   height: auto; /* Đảm bảo tỷ lệ khung hình bảo toàn */
+// }
+
+.info-container {
+  flex: 1;
+  padding: 1rem;
+}
+
+/* Điều chỉnh CSS theo nhu cầu của bạn */
+.custom-text {
+    font-size: 24px; /* Chỉnh kích thước phông chữ theo mong muốn */
+    font-weight: bold; /* Đặt độ đậm cho văn bản nếu cần */
+  }
+
+  

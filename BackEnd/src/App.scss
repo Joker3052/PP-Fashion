@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.app-container{
+  .add-new{
+    display: flex;
+    text-align: center;
+      justify-content: space-between;
+  }
+}
+
+.login-container
+{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.title
+{
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+  padding-top:30px ;
+}
+.text
+{
+  font-weight: 600;
+  padding-bottom: 3px;
+}
+#text-email{
+  margin-bottom: 7px;
+}
+input{
+  padding:13px 7px;
+  outline: none;
+  background-color: #1618230f;
+  border: #1618230f;
+  width: 100%;
+  &:hover{
+    background-color: #dedede;
+    // border: 1px solid #dedede;
+  }
+}
+.input-pass{
+  position: relative;
+  i{
+    cursor: pointer;
+    position: absolute;
+    top: 17px;
+    right: 10px;
+  }
+}
+button
+{
+  padding: 10px;
+  // border-radius: 3px;
+  outline: none;
+  border: none;
+  &.active
+  {
+    background-color: red;
+    color: white;
+  }
+}
+button[disabled=disabled], button:disabled {
+  // your css rules
+  cursor: not-allowed;
+}
+.go-back{
+  text-align: center;
+  margin-top: 30px;
+  cursor: pointer;
+}

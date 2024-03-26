@@ -1,0 +1,17 @@
+.wecome_user
+{
+    cursor: pointer;
+}
+.header-container {
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: auto;
+    width: 100%;
+    z-index: 999;
+    transition: top 0.3s ease;
+  }
+  
+.header-container.scrolled {
+  top: -100px;
+}

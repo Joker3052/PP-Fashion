@@ -1,0 +1,14 @@
+.payment-link {
+    text-decoration: none; /* Loại bỏ dấu gạch chân */
+    background-color: #007bff; /* Màu nền */
+    color: #fff; /* Màu chữ */
+    padding: 10px 20px; /* Kích thước nút */
+    border-radius: 5px; /* Bo tròn viền */
+    font-weight: bold;
+    transition: background-color 0.3s ease; /* Hiệu ứng hover */
+  }
+  
+  .payment-link:hover {
+    background-color: #0056b3; /* Màu nền khi hover */
+  }
+  
